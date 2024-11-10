@@ -1,9 +1,3 @@
-# A perfect number is a positive integer which is equal to the sum of its proper divisors 
-# (the divisors of the number, excluding the number itself). Write a python program that 
-# lists all the perfect numbers less than 1000.
-
-
-
 nbrs = int(input("Enter a number to find its less perfect numbers: "))
 pfct_counter = 0
 for nbr in range(nbrs):
